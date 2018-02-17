@@ -1,17 +1,17 @@
-var api = "http://cryppit.com:8117";
+var api = "http://etn-mine.com:8117";
 
-var coinUnits = 1000000000000;
+var coinUnits = 100;
+var coinDecimalPlaces = 2;
 
-var poolHost = "cryppit.com";
+var poolHost = "etn-mine.com";
 
-var irc = "irc.freenode.net/#monero-pools";
+var irc = "irc.freenode.net/#etn-pools";
 
-var email = "support@cryppit.com";
+var email = "admin@etn-mine.com";
 
-var cryptonatorWidget = ["XMR-BTC", "XMR-USD", "XMR-EUR", "XMR-GBP"];
+var cryptonatorWidget = ["ETN-BTC", "ETN-USD", "ETN-EUR", "ETN-GBP"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
+var blockchainExplorer = "https://blockexplorer.electroneum.com/block/";
 
-var blockchainExplorer = "http://chainradar.com/xmr/block/";
-
-var transactionExplorer = "http://chainradar.com/xmr/transaction/";
+var transactionExplorer = "https://blockexplorer.electroneum.com/tx/";
